@@ -33,15 +33,9 @@ int main(){
 			printf("Se inicia a sua jornada %s",nome);
 			system("pause");
 			do{
-				if(andar == 1){
+				if(andar <= 3){
 					load();
-					andar = lab();
-				}else if(andar == 2){
-					load();
-					andar = lab();
-				}else if(andar == 3){
-					load();
-					andar = lab();
+					andar = lab();0
 				}else{
 					printf("\tObrigado por Jogar!!!\n");
 					escolha = 3;
